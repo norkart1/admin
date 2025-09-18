@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: sargalayam-admin
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run serve
+    publishDir: build
+    envVars:
+      - key: NODE_VERSION
+        value: 18.18.0
+      - key: NPM_CONFIG_PRODUCTION
+        value: false
