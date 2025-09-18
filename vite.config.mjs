@@ -21,8 +21,8 @@ export default defineConfig(({ mode }) => {
       },
     },
     define: {
-      // vitejs does not support process.env so we have to redefine it
-      'process.env': process.env,
+      // Only expose specific environment variables that are safe for the client
+      // Use VITE_ prefix for environment variables that should be available in the browser
     },
     esbuild: {
       loader: 'jsx',
