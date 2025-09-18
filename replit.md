@@ -10,13 +10,13 @@ This is a CoreUI Free React Admin Template that has been imported from GitHub an
 - **State Management**: Redux with React Context API
 - **Routing**: React Router DOM v6
 - **Authentication**: JWT token-based authentication with external API
-- **Backend Integration**: Connects to external API at `sargalayamserver-production.up.railway.app`
+- **Backend Integration**: Connects to external API at `sargalayamserver-mt7j.onrender.com`
 
 ## External Dependencies
-The application connects to an external backend API hosted on Railway:
-- Admin endpoints: `https://sargalayamserver-production.up.railway.app/admin`
-- Teams endpoints: `https://sargalayamserver-production.up.railway.app/teams`
-- Image URLs: `https://sargalayamserver-production.up.railway.app/teamImages` and `https://sargalayamserver-production.up.railway.app/programImg`
+The application connects to an external backend API hosted on Render:
+- Admin endpoints: `https://sargalayamserver-mt7j.onrender.com/admin`
+- Teams endpoints: `https://sargalayamserver-mt7j.onrender.com/teams`
+- Image URLs: `https://sargalayamserver-mt7j.onrender.com/teamImages` and `https://sargalayamserver-mt7j.onrender.com/programImg`
 
 ## Development Setup
 - **Development Server**: Configured to run on port 5000 with host `0.0.0.0`
@@ -48,4 +48,4 @@ The application connects to an external backend API hosted on Railway:
 ## Notes
 - The application shows some SASS deprecation warnings which are non-critical
 - Authentication system connects to external backend - requires valid credentials
-- All API integrations point to external Railway-hosted backend
+- All API integrations point to external Render-hosted backend
