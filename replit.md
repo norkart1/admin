@@ -11,9 +11,11 @@ This is a CoreUI Free React Admin Template that has been imported from GitHub an
 - **Routing**: React Router DOM v6
 - **Authentication**: JWT token-based authentication with external API
 - **Backend Integration**: Connects to external API at `sargalayamserver-mt7j.onrender.com`
+- **Client URL**: Client application hosted at `https://sargalayam-client.onrender.com`
 
 ## External Dependencies
 The application connects to an external backend API hosted on Render:
+- **Client URL**: `https://sargalayam-client.onrender.com`
 - Admin endpoints: `https://sargalayamserver-mt7j.onrender.com/admin`
 - Teams endpoints: `https://sargalayamserver-mt7j.onrender.com/teams`
 - Image URLs: `https://sargalayamserver-mt7j.onrender.com/teamImages` and `https://sargalayamserver-mt7j.onrender.com/programImg`
